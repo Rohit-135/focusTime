@@ -27,6 +27,8 @@ export default function App() {
   const min = Math.floor(milis / 1000 / 60) % 60;
   const sec = Math.floor(milis / 1000) % 60;
 
+  console.log("A console log added");
+
   const vibrate = () => {
     Vibration.vibrate(400);
   };
